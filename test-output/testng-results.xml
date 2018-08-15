@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104665" started-at="2018-08-15T06:47:31Z" finished-at="2018-08-15T06:49:16Z">
+    <groups>
+    </groups>
+    <test name="Firefox Test" duration-ms="104665" started-at="2018-08-15T06:47:31Z" finished-at="2018-08-15T06:49:16Z">
+      <class name="com.Test.Practice.TestBrowserInvokation">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Test.Practice.TestBrowserInvokation@14523f8]" name="setUp" is-config="true" duration-ms="104166" started-at="2018-08-15T06:47:31Z" finished-at="2018-08-15T06:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://learn.letskodeit.com/p/practice]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.OutOfMemoryError">
+            <message>
+              <![CDATA[Java heap space]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.OutOfMemoryError: Java heap space
+at java.util.Arrays.copyOf(Unknown Source)
+at java.lang.AbstractStringBuilder.ensureCapacityInternal(Unknown Source)
+at java.lang.AbstractStringBuilder.append(Unknown Source)
+at java.lang.StringBuilder.append(Unknown Source)
+at org.openqa.selenium.json.JsonInput.readString(JsonInput.java:341)
+at org.openqa.selenium.json.JsonInput.nextString(JsonInput.java:182)
+at org.openqa.selenium.json.JsonInput.skipValue(JsonInput.java:270)
+at org.openqa.selenium.json.JsonInput.skipValue(JsonInput.java:264)
+at org.openqa.selenium.remote.NewSessionPayload.getAlwaysMatch(NewSessionPayload.java:459)
+at org.openqa.selenium.remote.NewSessionPayload.getW3C(NewSessionPayload.java:384)
+at org.openqa.selenium.remote.NewSessionPayload.writeTo(NewSessionPayload.java:253)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:69)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+at com.Test.Practice.TestSuiteBase.getDriverInstance(TestSuiteBase.java:79)
+at com.Test.Practice.TestSuiteBase.setUp(TestSuiteBase.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.OutOfMemoryError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.Test.Practice.TestBrowserInvokation@14523f8]" name="setUp" is-config="true" duration-ms="0" started-at="2018-08-15T06:49:16Z" finished-at="2018-08-15T06:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testOne()[pri:0, instance:com.Test.Practice.TestBrowserInvokation@14523f8]" name="testOne" duration-ms="0" started-at="2018-08-15T06:49:16Z" finished-at="2018-08-15T06:49:16Z">
+          <exception class="java.lang.OutOfMemoryError">
+            <message>
+              <![CDATA[Java heap space]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.OutOfMemoryError: Java heap space
+at java.util.Arrays.copyOf(Unknown Source)
+at java.lang.AbstractStringBuilder.ensureCapacityInternal(Unknown Source)
+at java.lang.AbstractStringBuilder.append(Unknown Source)
+at java.lang.StringBuilder.append(Unknown Source)
+at org.openqa.selenium.json.JsonInput.readString(JsonInput.java:341)
+at org.openqa.selenium.json.JsonInput.nextString(JsonInput.java:182)
+at org.openqa.selenium.json.JsonInput.skipValue(JsonInput.java:270)
+at org.openqa.selenium.json.JsonInput.skipValue(JsonInput.java:264)
+at org.openqa.selenium.remote.NewSessionPayload.getAlwaysMatch(NewSessionPayload.java:459)
+at org.openqa.selenium.remote.NewSessionPayload.getW3C(NewSessionPayload.java:384)
+at org.openqa.selenium.remote.NewSessionPayload.writeTo(NewSessionPayload.java:253)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:69)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+at com.Test.Practice.TestSuiteBase.getDriverInstance(TestSuiteBase.java:79)
+at com.Test.Practice.TestSuiteBase.setUp(TestSuiteBase.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.OutOfMemoryError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.Test.Practice.TestBrowserInvokation@14523f8]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-15T06:49:16Z" finished-at="2018-08-15T06:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.Practice.TestBrowserInvokation -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>

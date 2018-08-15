@@ -1,0 +1,15 @@
+<suite name="Suite">
+  
+  <test name="Firefox Test">
+  <parameters>
+  	<parameter name="platform" value="Windows" />
+  	<parameter name="browser" value="firefox" />
+  	<parameter name="url" value="https://learn.letskodeit.com/p/practice" />
+  </parameters>
+    <classes>
+      <class name="com.Test.Practice.TestBrowserInvokation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+</suite> <!-- Suite -->
